@@ -1,7 +1,80 @@
-h1,
-p{
-color: #827F7F;
-font-family: "Helvetica Neve";
-font-size: 20px;
+
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%; /*10px*/ 
+}
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #827F7F;
+	margin: 0px;
+	font-size: 1.6rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+
+.titulos {
+	
+	border-radius: 5px;
+	background-color: #CECCCC;
+	width: 95%;
+	height:95%;
+	margin: auto;
+	padding-bottom: 1px;
+	text-align: center;
+	
+	
+}
+
+
+.subtitulos-trabajo{
+	background-color: #CECCCC;
+	border-radius: 5px;
+	width: 95%;
+	height:95%;
+	margin: auto;
+	padding-bottom: 0.5px;
+}
+.contenedor{
+	display: flex;
+	background-color: #B8C8FC;
+	width: 95%;
+	height:95%;
+	margin: auto;
+
+
 
 }
+.contenedor > div{
+	margin: 5px;
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+
+	
+}
+
+.foto{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	border-radius: 20px;	
+}
+.menu{
+	background-color: #CECCCC;
+	border-radius: 5px;
+	width: 95%;
+	height:95%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+
+}
+
+
+
